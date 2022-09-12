@@ -5,6 +5,5 @@ do
 	cp $image file.png
 	python color.py
 	cp output.png $image
-	rm file.png
-	rm output.png
+	rm file.png output.png
 done
