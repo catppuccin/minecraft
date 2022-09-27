@@ -17,7 +17,7 @@
 
 ## Usage
 
-1. Download the zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
+1. Download the zip file with your desired flavour from the [releases](https://github.com/catppuccin/minecraft/releases) page
 2. Move it to your resource packs folder
 3. Open the resource packs option ingame
 4. Select it
