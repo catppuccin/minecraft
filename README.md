@@ -26,7 +26,7 @@
 
 ### Shaders
 1. Install Iris and Sodium
-2. Download a `catppuccin-shaders.zip` zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
+2. Download a `catppuccin-shaders.zip` zip file from the [releases](https://github.com/catppuccin/minecraft/releases) page
 3. Move it to your shader packs folder
 4. Go to Options -> Video -> Shader Packs
 5. Select it
