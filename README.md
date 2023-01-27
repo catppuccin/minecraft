@@ -12,15 +12,25 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/minecraft/main/assets/mine.jpg"/>
+	<img src="assets/textures-preview.jpg"/>
+	<img src="assets/shaders-preview.webp"/>
 </p>
 
 ## Usage
 
-1. Download the zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
+### Resource Pack
+1. Download a `{flavor}.zip` zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
 2. Move it to your resource packs folder
 3. Open the resource packs option ingame
 4. Select it
+
+### Shaders
+1. Install Iris and Sodium
+2. Download a `catppuccin-shaders.zip` zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
+3. Move it to your shader packs folder
+4. Go to Options -> Video -> Shader Packs
+5. Select it
+6. Set the flavor in the shader settings
 
 ## 💝 Thanks to
 
@@ -29,6 +39,7 @@
 - [CallMeEcho](https://github.com/CallMeEchoCodes)
 - [Locotay](https://github.com/andreasgrafen)
 - [mvilk](https://github.com/mvilk)
+- [Gingeh](https://github.com/Gingeh)
 
 &nbsp;
 
@@ -43,4 +54,3 @@
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
-
