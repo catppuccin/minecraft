@@ -1,0 +1,21 @@
+{
+  "category.showmeyourskin.showmeyourskin": "Show Me Your Skin!",
+  "key.showmeyourskin.open_settings": "Open Harnas Configuratie",
+  "key.showmeyourskin.global_toggle": "Globale Schakelaar",
+  "key.showmeyourskin.global_toggle.enable": "Harnas render aanpassingen aangezet.",
+  "key.showmeyourskin.global_toggle.disable": "Harnas render aanpassingen uitgezet.",
+  "gui.showmeyourskin.armorScreen.globalToggleTooltip": "Globale schakel, druk op %1$s om aan of uit te zetten in het spel.",
+  "gui.showmeyourskin.armorScreen.global": "Globaal",
+  "gui.showmeyourskin.armorScreen.playerSelector": "Harnas Configuratie",
+  "gui.showmeyourskin.armorScreen.headSlider": "Helm: %d%%",
+  "gui.showmeyourskin.armorScreen.chestSlider": "Kuras: %d%%",
+  "gui.showmeyourskin.armorScreen.legsSlider": "Beenstukken: %d%%",
+  "gui.showmeyourskin.armorScreen.feetSlider": "Laarzen: %d%%",
+  "gui.showmeyourskin.armorScreen.glintTooltip": "Activeer betoveringsgloed",
+  "gui.showmeyourskin.armorScreen.combatTooltip": "Deactiveer automatisch de transparantie in een gevecht",
+  "gui.showmeyourskin.armorScreen.nameTagTooltip": "Laat het naamplaatje van de speler zien",
+  "gui.showmeyourskin.armorScreen.showElytraTooltip": "Laat Dekschild zien",
+  "gui.showmeyourskin.armorScreen.shieldGlintTooltip": "Betoveringsgloed laten zien op schild",
+  "gui.showmeyourskin.armorScreen.openButtonTooltip": "Open harnas transparantie overschrijving",
+  "gui.showmeyourskin.armorScreen.deleteButtonTooltip": "Verwijder transparantie overschrijving"
+}
