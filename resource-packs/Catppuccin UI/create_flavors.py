@@ -57,7 +57,7 @@ if os.path.isdir(temporary_files_dir):
 
 # Create temporary files folder.
 if not os.path.isdir(temporary_files_dir):
-    os.mkdir(temporary_files_dir)
+    os.makedirs(temporary_files_dir)
 
 # Start to generate different flavors and accent colors from the template.
 for flavor in flavors:
