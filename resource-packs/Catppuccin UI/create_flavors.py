@@ -301,9 +301,9 @@ for flavor in flavors:
                             for x in range(0,width):
                                 for y in range(0,height):
                                     r,g,b,a = image.getpixel((x,y))
-                                    
+                                    new_color_with_alpha = new_color + (a,)
                                     if ((r,g,b) == template_color):
-                                        image.putpixel((x,y), new_color)
+                                        image.putpixel((x,y), new_color_with_alpha)
                         image.save(image_path, "PNG")
             
             # Create language files for Minecraft and mods that have language files.
@@ -460,9 +460,9 @@ for flavor in flavors:
                                 for x in range(0,width):
                                     for y in range(0,height):
                                         r,g,b,a = image.getpixel((x,y))
-                                        
+                                        new_color_with_alpha = new_color + (a,)
                                         if ((r,g,b) == template_color):
-                                            image.putpixel((x,y), new_color)
+                                            image.putpixel((x,y), new_color_with_alpha)
                             image.save(image_path, "PNG")
                 
                 # Update pack description.
