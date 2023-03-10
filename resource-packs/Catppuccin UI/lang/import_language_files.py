@@ -13,7 +13,7 @@ versions_done = []
 # Instructions on how to add an index file. Used if no index file is found for the given version.
 index_file_instructions = "\nYou can add an index file by following these steps:\n1. Launch Minecraft with the version of which index file you need.\n2. After Minecraft has launched you should find the index file in the following locations depending on which laucher you use:\nMinecraft Launcher: .minecraft/assets/indexes/version.json\nPrism Launcher: PrismLauncher/assets/indexes/version.json\n3. Copy the index file to lang/indexes folder.\n4. Rename the index file to match the game version you launched the game.\n5. Done!"
 # Instructions on how to add object folders. Used if object folders are not found for the given version.
-object_folders_instructions = "\nYou can add the object folders by following these steps:\n1. Launch Minecraft with the version of which object folders you need.\n2. After Minecraft has launched you should find the object folders in the following locations depending on which launcher you use:\nMinecraft Launcher: .minecraft/assets/objects/\nPrism Launcher: PrismLauncher/assets/objects\n3. Create a new folder in lang/objects and name it after the index file name, for example '1.19.3'.\n4. Copy everything from .minecraft/assets/objects folder to the folder you just created.\n5. Done!"
+object_folders_instructions = "\nYou can add the object folders by following these steps:\n1. Launch Minecraft with the version of which object folders you need.\n2. After Minecraft has launched you should find the object folders in the following locations depending on which launcher you use:\nMinecraft Launcher: .minecraft/assets/objects/\nPrism Launcher: PrismLauncher/assets/objects\n3. Create a new folder inside lang folder called 'objects' and then create second one inside the 'objects' folder and name it after the index file name, for example '1.19.3'.\n4. Copy everything from .minecraft/assets/objects folder to the folder you just created.\n5. Done!"
 
 while True:
     print("-----------------------------------------------------------------------------------------------------------------------\nEnter the Minecraft version which language files you want to generate. Use 'all' for every version that has index file.")
@@ -68,6 +68,9 @@ for version in versions:
     index_file = os.path.join(index_files_folder, f"{version}.json")
     objects_folder = os.path.join(script_directory, "objects", version)
     output_folder = os.path.join(script_directory, "output", version, "minecraft")
+    # Create output folder.
+    if not os.path.isdir(output_folder):
+        os.makedirs(output_folder)
 
     # Open the index file and load the collection of files inside the index file.
     with open(index_file, "r") as file:
