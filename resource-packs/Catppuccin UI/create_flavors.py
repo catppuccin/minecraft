@@ -100,7 +100,7 @@ for flavor in flavors:
                 try:
                     template = json.load(template_file)
                 except json.decoder.JSONDecodeError as e:
-                    print("ERROR: Unable to load the template language file. Reason: ", e)
+                    print("ERROR: Unable to load the template language file of minecraft. Reason: ", e)
                     input()
                     sys.exit()
             
@@ -323,7 +323,7 @@ for flavor in flavors:
                                 try:
                                     template = json.load(template_file)
                                 except json.decoder.JSONDecodeError as e:
-                                    print("ERROR: Unable to load the template language file. Reason: ", e)
+                                    print(f"ERROR: Unable to load template language file at path: {template_language_file}\nReason: ", e)
                                     input()
                                     sys.exit()
                             
