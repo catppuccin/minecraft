@@ -1,0 +1,16 @@
+{
+  "emi.category.emitrades.villager_trades": "Villager Trades",
+
+  "emi.emitrades.random_colored": "Randomly Colored",
+  "emi.emitrades.random_structure": "Random Structure",
+  "emi.emitrades.random_effect": "Random Status Effects",
+  "emi.emitrades.enchantments.possible": "Possible Enchantments",
+
+  "emi.emitrades.profession.lvl.1": "Novice",
+  "emi.emitrades.profession.lvl.2": "Apprentice",
+  "emi.emitrades.profession.lvl.3": "Journeyman",
+  "emi.emitrades.profession.lvl.4": "Expert",
+  "emi.emitrades.profession.lvl.5": "Master",
+
+  "emi.emitrades.placeholder.wandering_trader": "Wandering Trader"
+}
