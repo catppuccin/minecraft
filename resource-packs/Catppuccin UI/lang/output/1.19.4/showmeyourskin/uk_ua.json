@@ -1,0 +1,20 @@
+{
+  "category.showmeyourskin.showmeyourskin": "Show Me Your Skin!",
+  "key.showmeyourskin.open_settings": "Відкрити глобальні параметри",
+  "key.showmeyourskin.global_toggle": "Переключити Мод",
+  "key.showmeyourskin.global_toggle.enable": "Включена настройка рендеринга броні.",
+  "key.showmeyourskin.global_toggle.disable": "Відключена настройка рендеринга броні.",
+  "gui.showmeyourskin.armorScreen.globalToggleTooltip": "Глобальне перемикання, натисніть %1$S, щоб переключитися в грі.",
+  "gui.showmeyourskin.armorScreen.global": "Глобальнi параметри",
+  "gui.showmeyourskin.armorScreen.playerSelector": "Налаштування бронi",
+  "gui.showmeyourskin.armorScreen.piece.head": "Шолом: %d%%",
+  "gui.showmeyourskin.armorScreen.piece.chest": "Нагрудник: %d%%",
+  "gui.showmeyourskin.armorScreen.piece.legs": "Наголінники: %d%%",
+  "gui.showmeyourskin.armorScreen.piece.feet": "Чоботи: %d%%",
+  "gui.showmeyourskin.armorScreen.glintTooltip": "Ефект зачаровування",
+  "gui.showmeyourskin.armorScreen.combatTooltip": "Автоматично вимикати прозорість в бою",
+  "gui.showmeyourskin.armorScreen.nameTagTooltip": "Показувати нік гравця",
+  "gui.showmeyourskin.armorScreen.showElytraTooltip": "Показувати елітри",
+  "gui.showmeyourskin.armorScreen.openButtonTooltip": "Відкрити параметри прозорості броні",
+  "gui.showmeyourskin.armorScreen.deleteButtonTooltip": "Скинути налаштування прозорості"
+}

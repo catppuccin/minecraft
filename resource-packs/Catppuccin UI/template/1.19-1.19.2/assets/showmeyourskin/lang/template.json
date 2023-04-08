@@ -1,0 +1,8 @@
+{
+  "gui.showmeyourskin.armorScreen.global": "<text_color><value>",
+  "gui.showmeyourskin.armorScreen.playerSelector": "<text_color><value>",
+  "gui.showmeyourskin.armorScreen.headSlider": "<text_color><value>",
+  "gui.showmeyourskin.armorScreen.chestSlider": "<text_color><value>",
+  "gui.showmeyourskin.armorScreen.legsSlider": "<text_color><value>",
+  "gui.showmeyourskin.armorScreen.feetSlider": "<text_color><value>"
+}

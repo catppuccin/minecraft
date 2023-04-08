@@ -1,0 +1,21 @@
+{
+  "category.showmeyourskin.showmeyourskin": "Show Me Your Skin!",
+  "key.showmeyourskin.open_settings": "打开护甲配置",
+  "key.showmeyourskin.global_toggle": "调整模组",
+  "key.showmeyourskin.global_toggle.enable": "启用自定义护甲渲染",
+  "key.showmeyourskin.global_toggle.disable": "禁用自定义护甲渲染",
+  "gui.showmeyourskin.armorScreen.globalToggleTooltip": "全局切换，按 %1$s 在游戏中切换。",
+  "gui.showmeyourskin.armorScreen.global": "全局",
+  "gui.showmeyourskin.armorScreen.playerSelector": "护甲配置",
+  "gui.showmeyourskin.armorScreen.headSlider": "头盔: %d%%",
+  "gui.showmeyourskin.armorScreen.chestSlider": "胸甲: %d%%",
+  "gui.showmeyourskin.armorScreen.legsSlider": "护腿: %d%%",
+  "gui.showmeyourskin.armorScreen.feetSlider": "靴子: %d%%",
+  "gui.showmeyourskin.armorScreen.glintTooltip": "启用附魔光效",
+  "gui.showmeyourskin.armorScreen.combatTooltip": "在战斗中自动禁用透明",
+  "gui.showmeyourskin.armorScreen.nameTagTooltip": "显示玩家姓名标签",
+  "gui.showmeyourskin.armorScreen.showElytraTooltip": "显示鞘翅",
+  "gui.showmeyourskin.armorScreen.shieldGlintTooltip": "在盾牌上显示附魔光效",
+  "gui.showmeyourskin.armorScreen.openButtonTooltip": "打开护甲透明",
+  "gui.showmeyourskin.armorScreen.deleteButtonTooltip": "删除透明"
+}

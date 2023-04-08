@@ -1,0 +1,21 @@
+{
+  "category.showmeyourskin.showmeyourskin": "Show Me Your Skin!",
+  "key.showmeyourskin.open_settings": "Open Armor Config",
+  "key.showmeyourskin.global_toggle": "Toggle Mod",
+  "key.showmeyourskin.global_toggle.enable": "Enabled armor rendering customisation.",
+  "key.showmeyourskin.global_toggle.disable": "Disabled armor rendering customisation.",
+  "gui.showmeyourskin.armorScreen.globalToggleTooltip": "Global toggle, press %1$s to toggle ingame.",
+  "gui.showmeyourskin.armorScreen.global": "Global",
+  "gui.showmeyourskin.armorScreen.playerSelector": "Armor Config",
+  "gui.showmeyourskin.armorScreen.headSlider": "Helmet: %d%%",
+  "gui.showmeyourskin.armorScreen.chestSlider": "Chestplate: %d%%",
+  "gui.showmeyourskin.armorScreen.legsSlider": "Leggings: %d%%",
+  "gui.showmeyourskin.armorScreen.feetSlider": "Boots: %d%%",
+  "gui.showmeyourskin.armorScreen.glintTooltip": "Enable enchantment glint",
+  "gui.showmeyourskin.armorScreen.combatTooltip": "Automatically disable transparency in combat",
+  "gui.showmeyourskin.armorScreen.nameTagTooltip": "Show player name tag",
+  "gui.showmeyourskin.armorScreen.showElytraTooltip": "Show Elytra",
+  "gui.showmeyourskin.armorScreen.shieldGlintTooltip": "Show enchantment glint on shield",
+  "gui.showmeyourskin.armorScreen.openButtonTooltip": "Open armor transparency override",
+  "gui.showmeyourskin.armorScreen.deleteButtonTooltip": "Delete transparency override"
+}
