@@ -1,0 +1,6 @@
+{
+  "itemGroup.fzmm.loot_chests": "<text_color><value>",
+  "itemGroup.fzmm.player_heads": "<text_color><value>",
+  "itemGroup.fzmm.unobtainable_items": "<text_color><value>",
+  "itemGroup.fzmm.useful_block_states": "<text_color><value>"
+}
