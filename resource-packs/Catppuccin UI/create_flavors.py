@@ -15,8 +15,6 @@ accent_colors = ["Lavender", "Blue", "Sapphire", "Sky", "Teal", "Green", "Yellow
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 output_folder = os.path.join(script_directory, "output")
-template = ''
-user_input = ''
 
 while True:
     print("-----------------------------------------------------------------------\nEnter which template version to use. Use names of the template folders.")
@@ -38,18 +36,10 @@ while True:
 
 temporary_files_dir = os.path.join(script_directory, "temp", user_input)
 
-# Load template settings.
-template_settings_file = os.path.join(template, "template_settings.json")
-ignored_files = []
-
-if os.path.isfile(template_settings_file):
-    with open(template_settings_file, "r") as settings_file:
-        try:
-            template_settings = json.load(settings_file)
-        except json.decoder.JSONDecodeError as e:
-            print("ERROR: Unable to load the template settings file. Reason: ", e)
-        template_version = template_settings["version"]
-        ignored_files = template_settings["ignored_files"]
+# Get resource pack version from version file.
+if os.path.isfile(os.path.join(script_directory, "version.txt")):
+    with open(os.path.join(script_directory, "version.txt"), "r") as version_file:
+        version = version_file.readline()
 
 # Delete the temporary files folder if it exists. This is here just in case something goes wrong temporary files folder will always be deleted before new files are started to get created.
 if os.path.isdir(temporary_files_dir):
@@ -259,7 +249,7 @@ for flavor in flavors:
             
             # Replace the correct colors for each image.
             if filename.endswith('.png'):
-                if filename not in ignored_files:
+                if not filename.startswith("$"):
                     image_path = os.path.join(dirpath, filename)
                     with Image.open(image_path) as image:
         
@@ -446,7 +436,7 @@ for flavor in flavors:
                 
                 # Update accent color for all textures.
                 if filename.endswith('.png'):
-                    if filename not in ignored_files:
+                    if not filename.startswith("$"):
                         image_path = os.path.join(dirpath, filename)
                         with Image.open(image_path) as image:
                             
@@ -471,7 +461,7 @@ for flavor in flavors:
                     with open(file_path, "r") as packmcmeta:
                         mcmeta = json.load(packmcmeta)
                     
-                    mcmeta["pack"]["description"] = mcmeta["pack"]["description"].replace("<pack_version>", template_version).replace("<mc_version>", versions)
+                    mcmeta["pack"]["description"] = mcmeta["pack"]["description"].replace("<pack_version>", version).replace("<mc_version>", versions)
                     
                     with open(file_path, "w") as packmcmeta:
                         json.dump(mcmeta, packmcmeta, indent=4)
