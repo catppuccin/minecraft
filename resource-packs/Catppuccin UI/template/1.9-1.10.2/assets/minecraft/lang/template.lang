@@ -1,3 +1,5 @@
+achievement.get=<yellow_text_color><value>
+
 container.inventory= 
 container.hopper= 
 container.crafting= 
@@ -14,21 +16,12 @@ container.minecart=
 container.enderchest= 
 container.beacon= 
 
-gui.achievements=<text_color><value>
-achievement.get=<yellow_text_color><value>
-
-itemGroup.buildingBlocks=<text_color><value>
-itemGroup.decorations=<text_color><value>
-itemGroup.redstone=<text_color><value>
-itemGroup.transportation=<text_color><value>
-itemGroup.misc=<text_color><value>
-itemGroup.search=<text_color><value>
-itemGroup.food=<text_color><value>
-itemGroup.tools=<text_color><value>
-itemGroup.combat=<text_color><value>
-itemGroup.brewing=<text_color><value>
-itemGroup.materials=<text_color><value>
-itemGroup.inventory=<text_color><value>
+demo.help.movementShort=<text_color><value>
+demo.help.movementMouse=<text_color><value>
+demo.help.jump=<text_color><value>
+demo.help.inventory=<text_color><value>
+demo.help.title=<text_color><value>
+demo.help.fullWrapped=<text_color><value>
 
 entity.MinecartHopper.name=
 entity.MinecartChest.name=
@@ -51,3 +44,18 @@ entity.donkey.name=<text_color><value>
 entity.mule.name=<text_color><value>
 entity.skeletonhorse.name=<text_color><value>
 entity.zombiehorse.name=<text_color><value>
+
+gui.achievements=<text_color><value>
+
+itemGroup.buildingBlocks=<text_color><value>
+itemGroup.decorations=<text_color><value>
+itemGroup.redstone=<text_color><value>
+itemGroup.transportation=<text_color><value>
+itemGroup.misc=<text_color><value>
+itemGroup.search=<text_color><value>
+itemGroup.food=<text_color><value>
+itemGroup.tools=<text_color><value>
+itemGroup.combat=<text_color><value>
+itemGroup.brewing=<text_color><value>
+itemGroup.materials=<text_color><value>
+itemGroup.inventory=<text_color><value>

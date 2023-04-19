@@ -75,8 +75,8 @@ for flavor in flavors:
     parts = u_input.split()
     versions = parts[-1].strip()
     if '-' in versions:
-        oldest_version, new_version = map(str, versions.split('-', 1))
-        lang_version = new_version
+        oldest_version, latest_version = map(str, versions.split('-', 1))
+        lang_version = latest_version
     else:
         lang_version = versions
     language_files_folder = os.path.join(script_directory, "lang", "output", f"{lang_version}")
@@ -107,7 +107,7 @@ for flavor in flavors:
         sys.exit()
 
     # Set correct color values depending on flavor.
-    if (flavor=="Mocha"):
+    if (flavor == "Mocha"):
         crust = (17, 17, 27)
         mantle = (24, 24, 37)
         base = (30, 30, 46)
@@ -141,7 +141,7 @@ for flavor in flavors:
         yellow_text_color = "§e"
         purple_text_color = "§d"
     
-    elif (flavor=="Macchiato"):
+    elif (flavor == "Macchiato"):
         crust = (24, 25, 38)
         mantle = (30, 32, 48)
         base = (36, 39, 58)
@@ -175,7 +175,7 @@ for flavor in flavors:
         yellow_text_color = "§e"
         purple_text_color = "§d"
     
-    elif (flavor=="Frappe"):
+    elif (flavor == "Frappe"):
         crust = (35, 38, 52)
         mantle = (41, 44, 60)
         base = (48, 52, 70)
@@ -209,7 +209,7 @@ for flavor in flavors:
         yellow_text_color = "§e"
         purple_text_color = "§d"
 
-    elif (flavor=="Latte"):
+    elif (flavor == "Latte"):
         crust = (220, 224, 232)
         mantle = (230, 233, 239)
         base = (239, 241, 245)
@@ -295,7 +295,15 @@ for flavor in flavors:
                                     if ((r,g,b) == template_color):
                                         image.putpixel((x,y), new_color_with_alpha)
                         image.save(image_path, "PNG")
-            
+                
+                # If file has "$current_flavor$" prefix remove the prefix so textures inside file will work in the pack.
+                elif filename.startswith(f"${flavor.lower()}$"):
+                    os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename.replace(f"${flavor.lower()}$", "")))
+                
+                # Delete file if it doesn't have "$ignore$" or "$current_flavor$" prefixes.
+                elif not filename.startswith("$ignore$"):
+                    os.remove(os.path.join(dirpath, filename))
+                
             # Create language files for Minecraft and mods that have language files.
             elif filename == "template.json" or filename == "template.lang":
                 if dirpath.endswith("lang"):
@@ -395,35 +403,35 @@ for flavor in flavors:
         
         # Set correct color value for accent color.
         if (accent_color == "Lavender"):
-            accent_color = lavender
+            accentcolor = lavender
         elif (accent_color == "Blue"):
-            accent_color = blue
+            accentcolor = blue
         elif (accent_color == "Sapphire"):
-            accent_color = sapphire
+            accentcolor = sapphire
         elif (accent_color == "Sky"):
-            accent_color = sky
+            accentcolor = sky
         elif (accent_color == "Teal"):
-            accent_color = teal
+            accentcolor = teal
         elif (accent_color == "Green"):
-            accent_color = green
+            accentcolor = green
         elif (accent_color == "Yellow"):
-            accent_color = yellow
+            accentcolor = yellow
         elif (accent_color == "Peach"):
-            accent_color = peach
+            accentcolor = peach
         elif (accent_color == "Maroon"):
-            accent_color = maroon
+            accentcolor = maroon
         elif (accent_color == "Red"):
-            accent_color = red
+            accentcolor = red
         elif (accent_color == "Mauve"):
-            accent_color = mauve
+            accentcolor = mauve
         elif (accent_color == "Pink"):
-            accent_color = pink
+            accentcolor = pink
         elif (accent_color == "Flamingo"):
-            accent_color = flamingo
+            accentcolor = flamingo
         elif (accent_color == "Rosewater"):
-            accent_color = rosewater
+            accentcolor = rosewater
         
-        color_map = {(255, 0, 0): accent_color}
+        color_map = {(255, 0, 0): accentcolor}
         
         # Delete version_folder if it exists so a new one can be created.
         if os.path.exists(version_folder):
@@ -454,7 +462,15 @@ for flavor in flavors:
                                         if ((r,g,b) == template_color):
                                             image.putpixel((x,y), new_color_with_alpha)
                             image.save(image_path, "PNG")
-                
+                    
+                    # If file has "$current_accent_color$" prefix remove the prefix so textures inside file will work in the pack.
+                    elif filename.startswith(f"${accent_color.lower()}$"):
+                        os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename.replace(f"${accent_color.lower()}$", "")))
+                    
+                    # Remove "$ignore$" prefix if file has it.
+                    elif filename.startswith("$ignore$"):
+                        os.rename(os.path.join(dirpath, filename), os.path.join(dirpath, filename.replace(f"$ignore$", "")))
+                    
                 # Update pack description.
                 elif filename == "pack.mcmeta":
                     file_path = os.path.join(dirpath, filename)
