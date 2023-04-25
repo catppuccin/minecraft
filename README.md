@@ -40,6 +40,7 @@
 - [Locotay](https://github.com/andreasgrafen)
 - [mvilk](https://github.com/mvilk)
 - [Gingeh](https://github.com/Gingeh)
+- [VoidTwo](https://github.com/VoidTwo)
 
 &nbsp;
 
