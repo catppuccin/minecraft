@@ -15,12 +15,12 @@
   "container.blast_furnace": "",
   "container.repair": "",
   "container.brewing": "",
-  "container.chest": "",
-  "container.chestDouble": "",
-  "container.enderchest": "",
+  "container.chest": "<text_color><value>",
+  "container.chestDouble": "<text_color><value>",
+  "container.enderchest": "<text_color><value>",
   "container.beacon": "",
-  "container.shulkerBox": "",
-  "container.barrel": "",
+  "container.shulkerBox": "<text_color><value>",
+  "container.barrel": "<text_color><value>",
   "container.loom": "",
   "container.grindstone_title": "",
   "container.cartography_table": "",
@@ -63,7 +63,7 @@
   "entity.minecraft.llama": "<text_color><value>",
 
   "entity.minecraft.chest_minecart": "",
-  "entity.minecraft.hopper_minecart": ""
+  "entity.minecraft.hopper_minecart": "",
 
   "gui.advancements": "<text_color><value>",
 

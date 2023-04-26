@@ -10,10 +10,10 @@ container.enchant=
 container.repair= 
 container.creative= 
 container.brewing= 
-container.chest= 
-container.chestDouble= 
+container.chest=<text_color><value>
+container.chestDouble=<text_color><value>
 container.minecart= 
-container.enderchest= 
+container.enderchest=<text_color><value>
 container.beacon= 
 
 demo.help.movementShort=<text_color><value>

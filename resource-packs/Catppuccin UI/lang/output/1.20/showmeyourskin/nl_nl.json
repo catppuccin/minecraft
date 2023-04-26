@@ -11,6 +11,8 @@
   "gui.showmeyourskin.armorScreen.piece.chest": "Kuras: %d%%",
   "gui.showmeyourskin.armorScreen.piece.legs": "Beenstukken: %d%%",
   "gui.showmeyourskin.armorScreen.piece.feet": "Laarzen: %d%%",
+  "gui.showmeyourskin.armorScreen.piece.elytra": "Dekschild: %d%%",
+  "gui.showmeyourskin.armorScreen.piece.shield": "Schild: %d%%",
   "gui.showmeyourskin.armorScreen.glintTooltip": "Activeer betoveringsgloed",
   "gui.showmeyourskin.armorScreen.combatTooltip": "Deactiveer automatisch de transparantie in een gevecht",
   "gui.showmeyourskin.armorScreen.nameTagTooltip": "Laat het naamplaatje van de speler zien",
