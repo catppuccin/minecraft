@@ -12,7 +12,7 @@ container.creative=
 container.brewing= 
 container.chest=<text_color><value>
 container.chestDouble=<text_color><value>
-container.minecart= 
+container.minecart=<text_color><value>
 container.enderchest=<text_color><value>
 container.beacon= 
 
@@ -23,8 +23,8 @@ demo.help.inventory=<text_color><value>
 demo.help.title=<text_color><value>
 demo.help.fullWrapped=<text_color><value>
 
+entity.MinecartChest.name=<text_color><value>
 entity.MinecartHopper.name=
-entity.MinecartChest.name=
 
 entity.Villager.name=<text_color><value>
 entity.Villager.farmer=<text_color><value>

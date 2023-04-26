@@ -58,7 +58,7 @@
   "entity.minecraft.donkey": "<text_color><value>",
   "entity.minecraft.llama": "<text_color><value>",
 
-  "entity.minecraft.chest_minecart": "",
+  "entity.minecraft.chest_minecart": "<text_color><value>",
   "entity.minecraft.hopper_minecart": "",
 
   "gui.advancements": "<text_color><value>",

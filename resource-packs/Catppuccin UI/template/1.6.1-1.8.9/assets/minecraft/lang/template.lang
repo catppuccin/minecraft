@@ -12,7 +12,7 @@ container.creative=
 container.brewing= 
 container.chest=<text_color><value>
 container.chestDouble=<text_color><value>
-container.minecart= 
+container.minecart=<text_color><value>
 container.enderchest=<text_color><value>
 container.beacon= 
 

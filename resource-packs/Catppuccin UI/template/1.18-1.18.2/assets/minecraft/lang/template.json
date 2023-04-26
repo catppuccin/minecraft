@@ -55,7 +55,7 @@
   "demo.help.title": "<text_color><value>",
   "demo.help.fullWrapped": "<text_color><value>",
 
-  "debug.gamemodes.press_f4": "<value>",
+  "debug.gamemodes.press_f4": "<text_color><value>",
   "debug.gamemodes.select_next": "<text_color><value>",
 
   "entity.minecraft.villager.armorer": "<text_color><value>",
@@ -83,7 +83,7 @@
   "entity.minecraft.donkey": "<text_color><value>",
   "entity.minecraft.llama": "<text_color><value>",
 
-  "entity.minecraft.chest_minecart": "",
+  "entity.minecraft.chest_minecart": "<text_color><value>",
   "entity.minecraft.hopper_minecart": "",
 
   "entity.minecraft.allay": "<text_color><value>",
