@@ -19,10 +19,11 @@
 ## Usage
 
 ### Resource Pack
-1. Download a `{flavor}.zip` zip file with your desired flavor from the [releases](https://github.com/catppuccin/minecraft/releases) page
-2. Move it to your resource packs folder
-3. Open the resource packs option ingame
-4. Select it
+1. Go to our Modrinth [versions page](https://modrinth.com/resourcepack/catppuccin-ui/versions) and click on version with your preferred flavor and the Minecraft version you're playing.
+2. Scroll down to the "Files" section and download `Catppuccin {flavor} {accent color}.zip` zip file with your preferred accent color.
+3. Move that zip file you downloaded to your `resourcepacks` folder in your `.minecraft` folder.
+4. Launch Minecraft and open resource packs menu from options.
+5. Select the pack and press done.
 
 ### Shaders
 1. Install Iris and Sodium

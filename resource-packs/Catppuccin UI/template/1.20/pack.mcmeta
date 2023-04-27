@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 14,
+    "pack_format": 15,
     "description": "Catppuccin UI - v<pack_version> for Minecraft <mc_version>"
   }
 }

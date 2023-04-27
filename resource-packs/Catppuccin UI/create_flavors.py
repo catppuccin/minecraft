@@ -722,11 +722,6 @@ def main():
                                 f'Language files of {mod_name} ready for the '
                                 f'temporary template of flavor {flavor}!\n')
 
-                # Delete the 'template_settings.json' file as it is not part of the resource pack.
-                elif filename == 'template_settings.json':
-                    file_path = PurePath(dirpath, filename)
-                    os_remove(file_path)
-
         print(f'Temporary template for flavor {flavor} is ready!\n')
 
         # Generate resource packs for each accent color from the temporary template of flavor created earlier.
