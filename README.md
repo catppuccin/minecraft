@@ -18,6 +18,8 @@
 
 ## Usage
 
+⚠️ Reminder: Only download mods, plugins etc from sources you trust. Recently it has been discovered that several CurseForge projects (that are now removed) contained malware called "[Fractureiser](https://github.com/fractureiser-investigation/fractureiser)". Even though fractureiser was distributed in CurseForge projects, this kind of malware can be found in any platform so it's important to only download mods/plugins from trusted sources. ⚠️
+
 ### Resource Pack
 1. Go to our Modrinth [versions page](https://modrinth.com/resourcepack/catppuccin-ui/versions) and click on version with your preferred flavor and the Minecraft version you're playing.
 2. Scroll down to the "Files" section and download `Catppuccin {flavor} {accent color}.zip` zip file with your preferred accent color.
