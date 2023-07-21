@@ -1,0 +1,11 @@
+{
+    "gui.voicechat.voice_chat.title": "Голосовий чат",
+    "gui.voicechat.voice_chat_settings.title": "Налаштування голосового чату",
+    "gui.voicechat.adjust_volume.title": "Відрегулювати гучність",
+    "gui.voicechat.select_microphone.title": "Вибрати мікрофон",
+    "gui.voicechat.select_speaker.title": "Вибрати динаміки",
+    "gui.voicechat.group.title": "Груповий чат",
+    "gui.voicechat.join_create_group.title": "Приєднатися або створити групу",
+    "message.voicechat.join_create_group": "Приєднатися або створити групу",
+    "message.voicechat.group_name": "Назва групи"
+}

@@ -1,0 +1,17 @@
+{
+    "gui.voicechat.voice_chat.title": "Hlasová komunikace",
+    "gui.voicechat.voice_chat_settings.title": "Nastavení hlasové komunikace",
+    "gui.voicechat.adjust_volume.title": "Nastavení hlasitosti",
+    "gui.voicechat.select_microphone.title": "Vybrat hlasový vstup",
+    "gui.voicechat.select_speaker.title": "Vybrat hlasový výstup",
+    "gui.voicechat.group.title": "Skupinový chat",
+    "gui.voicechat.join_create_group.title": "Připojit se nebo vytvořit skupinu",
+    "gui.voicechat.create_group.title": "Vytvořit skupinu",
+    "gui.voicechat.enter_password.title": "Zadat heslo skupiny",
+    "message.voicechat.join_create_group": "Připojit se nebo vytvořit skupinu",
+    "message.voicechat.group_name": "Název skupiny",
+    "message.voicechat.create_group": "Vytvořit skupinu",
+    "message.voicechat.optional_password": "Heslo (nepovinné)",
+    "message.voicechat.enter_group_password": "Zadej heslo skupiny",
+    "message.voicechat.password": "Heslo"
+}

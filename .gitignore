@@ -2,3 +2,5 @@
 **/Catppuccin UI/output
 # Temporary files
 **/Catppuccin UI/temp
+# Python cache
+__pycache__/

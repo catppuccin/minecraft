@@ -1,0 +1,17 @@
+{
+    "gui.voicechat.voice_chat.title": "Chat de voz",
+    "gui.voicechat.voice_chat_settings.title": "Ajustes del chat de voz",
+    "gui.voicechat.adjust_volume.title": "Ajustar volúmenes",
+    "gui.voicechat.select_microphone.title": "Seleccionar micrófono",
+    "gui.voicechat.select_speaker.title": "Seleccionar altavoz",
+    "gui.voicechat.group.title": "Grupo de chat",
+    "gui.voicechat.join_create_group.title": "Entrar o crear grupo",
+    "gui.voicechat.create_group.title": "Crear un grupo",
+    "gui.voicechat.enter_password.title": "Contraseña del grupo",
+    "message.voicechat.join_create_group": "Entrar o crear grupo",
+    "message.voicechat.group_name": "Nombre del grupo",
+    "message.voicechat.create_group": "Crear un grupo",
+    "message.voicechat.optional_password": "Contraseña (opcional)",
+    "message.voicechat.enter_group_password": "Contraseña del grupo",
+    "message.voicechat.password": "Contraseña"
+}
