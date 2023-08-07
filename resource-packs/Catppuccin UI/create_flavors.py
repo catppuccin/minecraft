@@ -227,7 +227,6 @@ def main():
                     fileNoFlavorPrefix = PurePath(dirpath, filenameNoFlavorPrefix)
                     # Remove file without flavor prefix so the one with flavor prefix can be renamed.
                     if isfile(fileNoFlavorPrefix):
-                        print(f'Success! Removed file: {fileNoFlavorPrefix}')
                         os_remove(fileNoFlavorPrefix)
                         filenames.remove(filenameNoFlavorPrefix)
                     os_rename(

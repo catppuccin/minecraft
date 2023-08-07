@@ -1,0 +1,16 @@
+{
+    "container.expandedstorage.christmas_chest": "ʇsǝɥƆ Christmas",
+    "container.expandedstorage.diamond_chest": "ʇsǝɥƆ puoɯɐᴉᗡ",
+    "container.expandedstorage.error": "ɹoɹɹƎ",
+    "container.expandedstorage.generic_double": "%s ǝᵷɹɐꞀ",
+    "container.expandedstorage.gold_chest": "ʇsǝɥƆ pꞁo⅁",
+    "container.expandedstorage.iron_chest": "ʇsǝɥƆ uoɹI",
+    "container.expandedstorage.netherite_chest": "ʇsǝɥƆ ǝʇᴉɹǝɥʇǝN",
+    "container.expandedstorage.obsidian_chest": "ʇsǝɥƆ uɐᴉpᴉsqO",
+    "container.expandedstorage.pumpkin_chest": "ʇsǝɥƆ uᴉʞdɯnԀ",
+    "container.expandedstorage.wood_chest": "ʇsǝɥƆ",
+    "itemGroup.expandedstorage": "ǝƃɐɹoʇS pǝpuɐdxƎ",
+	"itemGroup.expandedstorage.expandedstorage": "ǝƃɐɹoʇS pǝpuɐdxƎ",
+	"itemgroup.expandedstorage.expandedstorage": "ǝƃɐɹoʇS pǝpuɐdxƎ",
+    "screen.expandedstorage.page_x_y": "%d/%d"
+}

@@ -1,0 +1,14 @@
+{
+  "container.expandedstorage.wood_chest": "<text_color><value>",
+  "container.expandedstorage.pumpkin_chest": "<text_color><value>",
+  "container.expandedstorage.christmas_chest": "<text_color><value>",
+  "container.expandedstorage.iron_chest": "<text_color><value>",
+  "container.expandedstorage.gold_chest": "<text_color><value>",
+  "container.expandedstorage.diamond_chest": "<text_color><value>",
+  "container.expandedstorage.obsidian_chest": "<text_color><value>",
+  "container.expandedstorage.generic_double": "<text_color><value>",
+  "container.expandedstorage.error": "<text_color><value>",
+  "itemGroup.expandedstorage": "<text_color><value>",
+  "itemGroup.expandedstorage.expandedstorage": "<text_color><value>",
+  "itemgroup.expandedstorage.expandedstorage": "<text_color><value>"
+}
