@@ -3,6 +3,12 @@
   "advancements.toast.challenge": "<purple_text_color><value>",
   "advancements.toast.goal": "<yellow_text_color><value>",
 
+  "advancements.adventure.root.title": "<text_color><value>",
+  "advancements.end.root.title": "<text_color><value>",
+  "advancements.husbandry.root.title": "<text_color><value>",
+  "advancements.nether.root.title": "<text_color><value>",
+  "advancements.story.root.title": "<text_color><value>",
+
   "container.inventory": "",
   "container.hopper": "",
   "container.crafting": "",

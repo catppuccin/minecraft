@@ -1,0 +1,13 @@
+{
+    "itemGroup.supplementaries": "Supplementaries",
+    "itemGroup.jars": "Jars",
+    "block.supplementaries.notice_board": "게시판",
+    "block.supplementaries.sack": "부대",
+    "block.supplementaries.safe": "금고",
+    "gui.supplementaries.safe.name": "%1$s의 %2$s",
+    "gui.supplementaries.safe.password": "%2$s의 열쇠: %1$s",
+    "block.supplementaries.pulley_block": "도르래 블록",
+    "gui.supplementaries.orange_trader.trade": "TRADE OFFER",
+    "gui.supplementaries.orange_trader.get": "I receive:",
+    "gui.supplementaries.orange_trader.receive": "You receive:"
+}

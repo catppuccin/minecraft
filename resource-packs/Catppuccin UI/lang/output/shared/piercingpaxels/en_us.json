@@ -1,0 +1,15 @@
+{
+    "itemGroup.piercingPaxels": "Piercing Paxels",
+    "piercingpaxels.container.paxel": "Paxel",
+    "item.piercingpaxels.wooden_paxel": "Wooden Paxel",
+    "item.piercingpaxels.stone_paxel": "Stone Paxel",
+    "item.piercingpaxels.iron_paxel": "Iron Paxel",
+    "item.piercingpaxels.golden_paxel": "Golden Paxel",
+    "item.piercingpaxels.diamond_paxel": "Diamond Paxel",
+    "item.piercingpaxels.netherite_paxel": "Netherite Paxel",
+    "item.piercingpaxels.tr_bronze_paxel": "Bronze Paxel",
+    "item.piercingpaxels.tr_ruby_paxel": "Ruby Paxel",
+    "item.piercingpaxels.tr_sapphire_paxel": "Sapphire Paxel",
+    "item.piercingpaxels.tr_peridot_paxel": "Peridot Paxel",
+    "item.piercingpaxels.soul_steel_paxel": "Soul Steel Paxel"
+}

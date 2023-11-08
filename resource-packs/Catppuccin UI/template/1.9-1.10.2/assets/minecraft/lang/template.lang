@@ -39,6 +39,12 @@ entity.Villager.tool=<text_color><value>
 entity.Villager.butcher=<text_color><value>
 entity.Villager.leather=<text_color><value>
 
+entity.EntityHorse.name=<text_color><value>
+entity.Donkey.name=<text_color><value>
+entity.Mule.name=<text_color><value>
+entity.SkeletonHorse.name=<text_color><value>
+entity.ZombieHorse.name=<text_color><value>
+
 entity.horse.name=<text_color><value>
 entity.donkey.name=<text_color><value>
 entity.mule.name=<text_color><value>

@@ -1,0 +1,13 @@
+{
+    "itemGroup.supplementaries": "Supplementaries",
+    "itemGroup.jars": "Kavanozlar",
+    "block.supplementaries.notice_board": "Not Panosu",
+    "block.supplementaries.sack": "Çuval",
+    "block.supplementaries.safe": "Kasa",
+    "gui.supplementaries.safe.name": "%1$s oyuncusunun %2$ssı",
+    "gui.supplementaries.safe.password": "%2$s'nın şifresi: %1$s",
+    "block.supplementaries.pulley_block": "Kasnak Bloğu",
+    "gui.supplementaries.orange_trader.trade": "TİCARET TEKLİFİ",
+    "gui.supplementaries.orange_trader.get": "Senin alacağın:",
+    "gui.supplementaries.orange_trader.receive": "Benim alacağım:"
+}

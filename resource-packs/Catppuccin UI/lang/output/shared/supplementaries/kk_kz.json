@@ -1,0 +1,13 @@
+{
+    "itemGroup.supplementaries": "Supplementaries",
+    "itemGroup.jars": "Құтылар",
+    "block.supplementaries.notice_board": "Ақпараттық тақта",
+    "block.supplementaries.sack": "Қанар",
+    "block.supplementaries.safe": "Жағдан",
+    "gui.supplementaries.safe.name": "%1$s %2$s'ы",
+    "gui.supplementaries.safe.password": "%2$s кілті: %1$s",
+    "block.supplementaries.pulley_block": "Шығыр",
+    "gui.supplementaries.orange_trader.trade": "TRADE OFFER",
+    "gui.supplementaries.orange_trader.get": "I receive:",
+    "gui.supplementaries.orange_trader.receive": "You receive:"
+}

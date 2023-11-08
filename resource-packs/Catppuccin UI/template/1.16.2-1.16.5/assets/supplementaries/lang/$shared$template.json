@@ -1,0 +1,15 @@
+{
+  "itemGroup.supplementaries": "<text_color><value>",
+  "itemGroup.jars": "<text_color><value>",
+  "block.supplementaries.notice_board": "<text_color><value>",
+  "block.supplementaries.sack": "<text_color><value>",
+  "block.supplementaries.safe": "<text_color><value>",
+  "gui.supplementaries.safe.name": "<text_color><value>",
+  "gui.supplementaries.safe.password": "<text_color><value>",
+  "block.supplementaries.pulley_block": "<text_color><value>",
+  "gui.supplementaries.orange_trader.trade": "<text_color><value>",
+  "gui.supplementaries.orange_trader.get": "",
+  "gui.supplementaries.orange_trader.receive": "",
+  "gui.supplementaries.present": "<text_color><value>",
+  "gui.supplementaries.present.send": "<text_color><value>"
+}

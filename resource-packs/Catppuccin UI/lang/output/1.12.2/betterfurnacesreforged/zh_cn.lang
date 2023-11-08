@@ -1,0 +1,15 @@
+tile.betterfurnacesreforged.iron_furnace.name=铁熔炉
+tile.betterfurnacesreforged.gold_furnace.name=金熔炉
+tile.betterfurnacesreforged.diamond_furnace.name=钻石熔炉
+tile.betterfurnacesreforged.netherhot_furnace.name=下界热熔炉
+tile.betterfurnacesreforged.extreme_furnace.name=极限熔炉
+tile.betterfurnacesreforged.extreme_forge.name=极限锻炉
+
+item.betterfurnacesreforged.color_upgrade.name=染色升级
+
+itemGroup.betterfurnacesreforged=更好的熔炉重铸版
+
+gui.betterfurnacesreforged.done=完成
+gui.betterfurnacesreforged.color.red=红：
+gui.betterfurnacesreforged.color.green=绿：
+gui.betterfurnacesreforged.color.blue=蓝：

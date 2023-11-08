@@ -1,0 +1,19 @@
+{
+  "itemGroup.bakery.bakery_tab": "<text_color><value>",
+  "creativetab.bakery.tab": "<text_color><value>",
+  "bakery.container.cabinet": "<text_color><value>",
+  "block.bakery.baker_station": "<text_color><value>",
+  "block.bakery.brick_stove": "<text_color><value>",
+  "block.bakery.cabinet": "<text_color><value>",
+  "block.bakery.cobblestone_stove": "<text_color><value>",
+  "block.bakery.deepslate_stove": "<text_color><value>",
+  "block.bakery.end_stove": "<text_color><value>",
+  "block.bakery.granite_stove": "<text_color><value>",
+  "block.bakery.mud_stove": "<text_color><value>",
+  "block.bakery.quartz_stove": "<text_color><value>",
+  "block.bakery.red_nether_bricks_stove": "<text_color><value>",
+  "block.bakery.sandstone_stove": "<text_color><value>",
+  "block.bakery.small_cooking_pot": "<text_color><value>",
+  "block.bakery.stone_bricks_stove": "<text_color><value>",
+  "entity.bakery.wandering_baker": "<text_color><value>"
+}

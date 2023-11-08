@@ -1,0 +1,15 @@
+tile.betterfurnacesreforged.iron_furnace.name=Iron Furnace
+tile.betterfurnacesreforged.gold_furnace.name=Gold Furnace
+tile.betterfurnacesreforged.diamond_furnace.name=Diamond Furnace
+tile.betterfurnacesreforged.netherhot_furnace.name=Netherhot Furnace
+tile.betterfurnacesreforged.extreme_furnace.name=Extreme Furnace
+tile.betterfurnacesreforged.extreme_forge.name=Extreme Forge
+
+item.betterfurnacesreforged.color_upgrade.name=Color Upgrade
+
+itemGroup.betterfurnacesreforged=Better Furnaces Reforged
+
+gui.betterfurnacesreforged.done=Done
+gui.betterfurnacesreforged.color.red=Red:
+gui.betterfurnacesreforged.color.green=Green:
+gui.betterfurnacesreforged.color.blue=Blue:

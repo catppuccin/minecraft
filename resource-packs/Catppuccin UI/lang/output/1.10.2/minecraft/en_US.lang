@@ -1232,11 +1232,19 @@ entity.Wolf.name=Wolf
 entity.Ozelot.name=Ocelot
 entity.Cat.name=Cat
 entity.Bat.name=Bat
+
 entity.EntityHorse.name=Horse
 entity.Donkey.name=Donkey
 entity.Mule.name=Mule
 entity.SkeletonHorse.name=Skeleton Horse
 entity.ZombieHorse.name=Zombie Horse
+
+entity.horse.name=Horse
+entity.donkey.name=Donkey
+entity.mule.name=Mule
+entity.skeletonhorse.name=Skeleton Horse
+entity.zombiehorse.name=Zombie Horse 
+
 entity.Rabbit.name=Rabbit
 entity.KillerBunny.name=The Killer Bunny
 

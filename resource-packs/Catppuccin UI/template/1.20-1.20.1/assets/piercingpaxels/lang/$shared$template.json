@@ -1,0 +1,18 @@
+{
+  "itemGroup.piercingPaxels" : "<text_color><value>",
+  "piercingpaxels.container.paxel" : "<text_color><value>",
+
+  "item.piercingpaxels.wooden_paxel" : "<text_color><value>",
+  "item.piercingpaxels.stone_paxel" : "<text_color><value>",
+  "item.piercingpaxels.iron_paxel" : "<text_color><value>",
+  "item.piercingpaxels.golden_paxel" : "<text_color><value>",
+  "item.piercingpaxels.diamond_paxel" : "<text_color><value>",
+  "item.piercingpaxels.netherite_paxel" : "<text_color><value>",
+
+  "item.piercingpaxels.tr_bronze_paxel" : "<text_color><value>",
+  "item.piercingpaxels.tr_ruby_paxel" : "<text_color><value>",
+  "item.piercingpaxels.tr_sapphire_paxel" : "<text_color><value>",
+  "item.piercingpaxels.tr_peridot_paxel" : "<text_color><value>",
+
+  "item.piercingpaxels.soul_steel_paxel" : "<text_color><value>"
+}

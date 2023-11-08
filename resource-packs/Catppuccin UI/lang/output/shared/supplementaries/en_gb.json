@@ -1,0 +1,13 @@
+{
+    "itemGroup.supplementaries": "Supplementaries",
+    "itemGroup.jars": "Jars",
+    "block.supplementaries.notice_board": "Memo Board",
+    "block.supplementaries.sack": "Sack",
+    "block.supplementaries.safe": "Safe",
+    "gui.supplementaries.safe.name": "%1$s's %2$s",
+    "gui.supplementaries.safe.password": "%2$s key: %1$s",
+    "block.supplementaries.pulley_block": "Pulley Block",
+    "gui.supplementaries.orange_trader.trade": "TRADE OFFER",
+    "gui.supplementaries.orange_trader.get": "I receive:",
+    "gui.supplementaries.orange_trader.receive": "You receive:"
+}

@@ -1,0 +1,15 @@
+tile.betterfurnacesreforged.iron_furnace.name=Fornalha de ferro
+tile.betterfurnacesreforged.gold_furnace.name=Fornalha de ouro
+tile.betterfurnacesreforged.diamond_furnace.name=Fornalha de diamante
+tile.betterfurnacesreforged.netherhot_furnace.name=Fornalha do nether
+tile.betterfurnacesreforged.extreme_furnace.name=Fornalha extrema
+tile.betterfurnacesreforged.extreme_forge.name=Forja extrema
+
+item.betterfurnacesreforged.color_upgrade.name=Melhoria de coloração
+
+itemGroup.betterfurnacesreforged=Better Furnaces Reforged
+
+gui.betterfurnacesreforged.done=Concluído
+gui.betterfurnacesreforged.color.red=Vermelho:
+gui.betterfurnacesreforged.color.green=Verde:
+gui.betterfurnacesreforged.color.blue=Azul:
