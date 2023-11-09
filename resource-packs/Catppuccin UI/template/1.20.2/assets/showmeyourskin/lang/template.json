@@ -1,0 +1,16 @@
+{
+    "gui.showmeyourskin.armorScreen.title": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.title.serverIntegrated": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.title.serverOverrides": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.global": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.synced": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.overridden": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.playerName": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.playerSelector": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.head": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.chest": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.legs": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.feet": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.elytra": "<text_color><value>",
+	"gui.showmeyourskin.armorScreen.piece.shield": "<text_color><value>"
+}
