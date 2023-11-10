@@ -1,0 +1,10 @@
+{
+  "gui.showmeyourskin.armorScreen.title": "Armor Config",
+  "gui.showmeyourskin.armorScreen.title.serverIntegrated": "Armor Config (Server)",
+  "gui.showmeyourskin.armorScreen.title.serverOverrides": "Armor Config (Local Overrides)",
+  "gui.showmeyourskin.armorScreen.global": "Global",
+  "gui.showmeyourskin.armorScreen.synced": "Synced",
+  "gui.showmeyourskin.armorScreen.overridden": "Overridden",
+  "gui.showmeyourskin.armorScreen.playerName": "%s",
+  "gui.showmeyourskin.armorScreen.playerSelector": "Armor Config"
+}

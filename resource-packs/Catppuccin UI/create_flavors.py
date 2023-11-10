@@ -186,8 +186,8 @@ def main():
         # Create a temporary template for each flavor which is used later on just to change the accent colors.
         for dirpath, _, filenames in os_walk(temporary_template_folder):
             for filename in filenames:
-                # Copy file from another template if filename starts with '$1'
-                if '$1' in filename and 'template.json' not in filename and 'template.lang' not in filename:
+                # Copy file from another template if filename starts with '$1.'
+                if filename.startswith('$1.') and 'template.json' not in filename and 'template.lang' not in filename:
                     texture_template_version = filename.split('$', 1)[1].split('$', 1)[0]
                     path_list = list(PurePath(dirpath).parts)
                     path_list[path_list.index('temp')] = 'template'
@@ -228,7 +228,9 @@ def main():
                     # Remove file without flavor prefix so the one with flavor prefix can be renamed.
                     if isfile(fileNoFlavorPrefix):
                         os_remove(fileNoFlavorPrefix)
-                        filenames.remove(filenameNoFlavorPrefix)
+                        if filenames.count(filenameNoFlavorPrefix) != 0:
+                            filenames.remove(filenameNoFlavorPrefix)
+
                     os_rename(
                         PurePath(dirpath, filename),
                         PurePath(dirpath, filename.replace(f'${flavor.lower()}$', '')))
@@ -376,7 +378,7 @@ def main():
 
                 # Delete file if it doesn't have '$ignore$' prefix. This removes all files that are either not needed
                 # anymore (template language files) or files that are only used by other flavors than current.
-                elif not filename.startswith('$ignore$') and filename != 'pack.mcmeta':
+                elif not filename.startswith('$ignore$') and not filename.endswith('.mcmeta'):
                     os_remove(PurePath(dirpath, filename))
                     continue
 
