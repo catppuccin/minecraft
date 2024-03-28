@@ -1,5 +1,7 @@
 {
   "pack": {
     "pack_format": 18,
+    "supported_formats": [18, 22],
+    "description": "Catppuccin UI - v<pack_version> for Minecraft <mc_version>+"
   }
 }
