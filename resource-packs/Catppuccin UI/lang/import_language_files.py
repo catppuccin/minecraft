@@ -108,5 +108,5 @@ if len(versions_done) == 1:
 else:
     print(f"\nCreated language files for versions " + ", ".join(str(ver) for ver in versions_done) + "!\n")
     print(f"Almost done, now you'll have to add the English (US) language files for all versions manually!\nYou can find the language file for each version inside the Minecraft jar file.\nExact location: .minecraft/versions/(version, for example '1.19.3')/1.19.3.jar/assets/minecraft/lang\nJust copy the en_us language file to folder lang/output/1.19.3/minecraft and then you'll have all language files in the correct location.\n")
-print("Everything is done if you already added the English (US) language file(s)!")
+print("Everything is done if you already added the English (US) language file!")
 input()

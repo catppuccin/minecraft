@@ -32,6 +32,7 @@
   "container.cartography_table": "",
   "container.stonecutter": "",
   "container.upgrade": "",
+  "container.crafter": "",
 
   "connect.aborted": "<text_color><value>",
   "connect.authorizing": "<text_color><value>",
@@ -41,6 +42,7 @@
   "connect.joining": "<text_color><value>",
   "connect.negotiating": "<text_color><value>",
   "createWorld.preparing": "<text_color><value>",
+  "dataPack.validation.working": "<text_color><value>",
   "disconnect.closed": "<text_color><value>",
   "disconnect.disconnected": "<text_color><value>",
   "disconnect.lost": "<text_color><value>",
@@ -51,6 +53,7 @@
   "multiplayer.downloadingStats": "<text_color><value>",
   "multiplayer.downloadingTerrain": "<text_color><value>",
   "selectWorld.data_read": "<text_color><value>",
+  "selectWorld.resource_load": "<text_color><value>",
 
   "color.minecraft.black": "<text_color><value>",
   "color.minecraft.blue": "<text_color><value>",
