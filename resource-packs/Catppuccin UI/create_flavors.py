@@ -51,7 +51,7 @@ def main():
 
     parser.add_argument("-d", "--dry-run", action="store_true",
                         help="Run the script in dry-run mode. No files will be created or modified.")
-    
+
     args = parser.parse_args()
     selected_flavor = args.flavor
     selected_accent = args.accent
@@ -121,7 +121,7 @@ def main():
     else:
         print(f'ERROR: No template language folder found at path:\n{mc_lang_folder}')
         return
-    
+
     # Check if language files exist for the latest version that the current template supports.
     mc_versions = template_version.split()[-1].strip()
     if '-' in mc_versions:
@@ -147,7 +147,7 @@ def main():
                         'ERROR: Unable to load the template language file of minecraft.\n'
                         'Reason: ', e)
                     return
-                
+
             elif template_lang_file.suffix == '.lang':
                 template_language_dict = {}
                 for line in template_file:
@@ -174,7 +174,7 @@ def main():
         if selected_flavor not in flavor_names + ['Frappe', ""]:
             print(f'ERROR: Flavor \'{selected_flavor}\' not found! Choose from the available flavors.')
             selected_flavor = None
-    
+
     accent_colors = [color.name for color in PALETTE.mocha.colors if color.accent == True]
     while True:
         if selected_accent is not None:
@@ -191,20 +191,20 @@ def main():
     accent_colors = [selected_accent] if selected_accent else accent_colors
 
     # Create a map of red2 values since they don't exist in the catppuccin palette
-    red2 = {PALETTE.mocha.name: darker_red(PALETTE.mocha.colors.red.hsl),
-            PALETTE.macchiato.name: darker_red(PALETTE.macchiato.colors.red.hsl),
-            "Frappe": darker_red(PALETTE.frappe.colors.red.hsl),
-            PALETTE.latte.name: darker_red(PALETTE.latte.colors.red.hsl)}
+    red2 = {PALETTE.mocha.name: darker_red(PALETTE.mocha.colors.red.rgb),
+            PALETTE.macchiato.name: darker_red(PALETTE.macchiato.colors.red.rgb),
+            "Frappe": darker_red(PALETTE.frappe.colors.red.rgb),
+            PALETTE.latte.name: darker_red(PALETTE.latte.colors.red.rgb)}
 
     if dry_run:
             print(
                 'Running in dry-run mode. No files will be created or modified.\n'
                 'You can remove the -d or --dry-run argument to create the flavors.')
-            
+
     # Start to generate different flavors and accent colors from the template.
     for flavor_obj in PALETTE:
         flavor = flavor_obj.name
-        
+
         # Frappe accented e workaround.
         if flavor == "Frappé":
             flavor = "Frappe"
@@ -221,7 +221,7 @@ def main():
 
         print(f'\nStarting to create flavor {flavor} from template {template_version}!\n')
 
-        
+
         # Create color map for current flavor.
         color_map = {
             rgb_to_tuple(PALETTE.mocha.colors.crust.rgb): rgb_to_tuple(flavor_obj.colors.crust.rgb),
@@ -276,7 +276,7 @@ def main():
                     # For example: '$latte$filename.png'.
                     if '$flavor$' not in old_filename and isfile(PurePath(*path_list, f'${flavor.lower()}${filename}')):
                         filename = f'${flavor.lower()}${filename}'
-                    
+
                     texture_path = PurePath(*path_list, filename)
                     if isfile(texture_path):
                         # Copy texture file from other template to temporary template.
@@ -294,7 +294,7 @@ def main():
                     else:
                         print(f'ERROR: File \'{filename}\' not found in path:\n{texture_path}')
                         return
-                
+
                 # If file has '$current_flavor$' prefix
                 # remove the prefix so textures inside file will work in the pack.
                 if filename.startswith(f'${flavor.lower()}$'):
@@ -579,8 +579,9 @@ def rgb_to_tuple(colorRGB):
     return (colorRGB.r, colorRGB.g, colorRGB.b)
 
 # Applies a -26% lightness adjustment to the color
-def darker_red(colorHSL):
-    red2_hls_tuple = (colorHSL.h, colorHSL.l * 0.74, colorHSL.s)
+def darker_red(colorRGB):
+    hls_tuple = rgb_to_hls(*rgb_to_tuple(colorRGB))
+    red2_hls_tuple = (hls_tuple[0], hls_tuple[1] * 0.74, hls_tuple[2])
     return tuple(round(i) for i in hls_to_rgb(*red2_hls_tuple))
 
 if __name__ == '__main__':
