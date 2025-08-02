@@ -11,7 +11,7 @@ vec3 colorLUT(vec3 color, sampler2D lut, int palette, float attenuation) {
 
     float u = color.r + mod(color.g, 8.0) * 64.0;
     float v = color.b * 8.0 + floor(color.g / 8.0);
-    vec2 lutcoord = vec2(u, v) / 512.0;
+    vec2 lutcoord = (vec2(u, v) + 0.5) / 512.0;
     
     vec2 minor_offset = vec2(mod(float(palette), 2.0), floor(float(palette) / 2.0));
     lutcoord += minor_offset;
