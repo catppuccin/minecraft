@@ -32,7 +32,7 @@ from time import perf_counter as time_perf_counter
 from PIL import Image
 
 # CatppuccinColors classes
-from catppuccin import PALETTE
+from palette import PALETTE
 
 def main():
     templates_folder = PurePath('template')
